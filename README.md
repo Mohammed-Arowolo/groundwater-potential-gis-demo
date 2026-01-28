@@ -1,16 +1,29 @@
-# Groundwater Potential Mapping Using GIS and Python
+# Groundwater Potential Mapping Using GIS and Python (ArcPy)
 
-This repository demonstrates a simple groundwater potential mapping workflow
-using ArcGIS Pro and Python (arcpy).
+This repository demonstrates a simple and reproducible groundwater
+potential mapping workflow using ArcGIS Pro and Python (arcpy).
 
-## Objectives
-- Prepare thematic layers relevant to groundwater occurrence
-- Apply raster reclassification and weighted overlay
-- Produce a groundwater potential map
+The project focuses on basement terrain conditions and illustrates how
+standard GIS-based multi-criteria decision analysis (MCDA) can be
+automated using Python.
 
-## Tools
+## Workflow
+1. Preparation of thematic layers (DEM, slope, drainage density,
+   lineament density, land use/land cover, and geology)
+2. Reclassification of thematic layers based on hydrogeological logic
+3. Weighted overlay analysis using ArcPy
+4. Generation of groundwater potential zones
+
+## Tools and Environment
 - ArcGIS Pro 3.1
-- Python (arcpy)
+- Python (ArcPy, Spatial Analyst)
+
+## Repository Structure
+data/        # Raw and processed spatial datasets (not uploaded)
+scripts/     # Python scripts for GIS automation
+outputs/     # Generated groundwater potential maps
+docs/        # Methodology and notes
 
 ## Status
-Project setup in progress.
+Completed GIS workflow with Python automation.
+
